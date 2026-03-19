@@ -1,0 +1,6 @@
+@Kasane_HostAddress = http://localhost:5089
+
+GET {{Kasane_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,103 @@
+<ArrayOfSectionClient xmlns="http://schemas.datacontract.org/2004/07/Ubisoft.Uplay.UplayShop.Services.Contracts.Client" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<SectionClient>
+		<AgeRating>
+			<Descriptors>
+				<AgeRatingDescriptorClient>
+					<ImageUrl i:nil="true"/>
+					<Name>Mild Sexual Themes</Name>
+				</AgeRatingDescriptorClient>
+				<AgeRatingDescriptorClient>
+					<ImageUrl i:nil="true"/>
+					<Name>Blood</Name>
+				</AgeRatingDescriptorClient>
+				<AgeRatingDescriptorClient>
+					<ImageUrl i:nil="true"/>
+					<Name>Language</Name>
+				</AgeRatingDescriptorClient>
+				<AgeRatingDescriptorClient>
+					<ImageUrl i:nil="true"/>
+					<Name>Violence</Name>
+				</AgeRatingDescriptorClient>
+			</Descriptors>
+			<ImageUrl>/AgeRating/ESRB/Values/M.png</ImageUrl>
+			<Name>M(Mature)</Name>
+			<SystemCode>ESRB</SystemCode>
+		</AgeRating>
+		<ChildrenList></ChildrenList>
+		<ContentList>
+			<SectionContentClient>
+				<Id>570</Id>
+				<LocalizedInfo>
+					<Culture>en-US</Culture>
+					<Duration i:nil="true"/>
+					<Height i:nil="true"/>
+					<Id>5408</Id>
+					<SectionContentId>570</SectionContentId>
+					<Size i:nil="true"/>
+					<Text>Ancestors Pack</Text>
+					<Url i:nil="true"/>
+					<Width i:nil="true"/>
+				</LocalizedInfo>
+				<Name>title</Name>
+				<Order>0</Order>
+				<SectionId>269</SectionId>
+				<TypeId>4</TypeId>
+				<TypeName>Title</TypeName>
+			</SectionContentClient>
+			<SectionContentClient>
+				<Id>571</Id>
+				<LocalizedInfo>
+					<Culture>en-US</Culture>
+					<Duration i:nil="true"/>
+					<Height i:nil="true"/>
+					<Id>5430</Id>
+					<SectionContentId>571</SectionContentId>
+					<Size i:nil="true"/>
+					<Text>The Ancestors</Text>
+					<Url i:nil="true"/>
+					<Width i:nil="true"/>
+				</LocalizedInfo>
+				<Name>text</Name>
+				<Order>2</Order>
+				<SectionId>269</SectionId>
+				<TypeId>1</TypeId>
+				<TypeName>Text</TypeName>
+			</SectionContentClient>
+			<SectionContentClient>
+				<Id>572</Id>
+				<LocalizedInfo>
+					<Culture>en-US</Culture>
+					<Duration i:nil="true"/>
+					<Height i:nil="true"/>
+					<Id>5452</Id>
+					<SectionContentId>572</SectionContentId>
+					<Size i:nil="true"/>
+					<Text i:nil="true"/>
+					<Url>/ancespack/affiche.jpg</Url>
+					<Width i:nil="true"/>
+				</LocalizedInfo>
+				<Name>img</Name>
+				<Order>2</Order>
+				<SectionId>269</SectionId>
+				<TypeId>2</TypeId>
+				<TypeName>Image</TypeName>
+			</SectionContentClient>
+		</ContentList>
+		<DotId>251.269</DotId>
+		<GameCode>ACR</GameCode>
+		<Id>269</Id>
+		<IsWinEnabled>true</IsWinEnabled>
+		<MenuTypeId>5</MenuTypeId>
+		<MenuTypeName>Product</MenuTypeName>
+		<Name>Ancestor</Name>
+		<Order>0</Order>
+		<ParentId>251</ParentId>
+		<PlatformCode>XBox360</PlatformCode>
+		<ProductId>555308790ce56000</ProductId>
+		<ProductIdDummy>555308790f671400</ProductIdDummy>
+		<RegionName>North America</RegionName>
+		<SiteUrl i:nil="true"/>
+		<TypeId>1</TypeId>
+		<TypeName>Default</TypeName>
+	</SectionClient>
+</ArrayOfSectionClient>

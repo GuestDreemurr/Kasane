@@ -1,0 +1,10 @@
+<ArrayOfGiftClient xmlns="http://schemas.datacontract.org/2004/07/Ubisoft.Uplay.UplayWin.Services.Contracts.Client" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<GiftClient>
+		<Code>XMAS2011</Code>
+		<Description>Login during christmas to obtain the gift.</Description>
+		<GamePlatforms i:nil="true"/>
+		<MessageTemplateId>17</MessageTemplateId>
+		<Name>Christmas gift 2011</Name>
+		<Value>20</Value>
+	</GiftClient>
+</ArrayOfGiftClient>

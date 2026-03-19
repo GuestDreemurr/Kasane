@@ -1,0 +1,23 @@
+<ArrayOfExternalAccountInfoClient xmlns="http://schemas.datacontract.org/2004/07/Ubisoft.Uplay.UplayWin.Services.Contracts.Client" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<ExternalAccountInfoClient>
+		<IsUbiUser>true</IsUbiUser>
+        <IsUplayUser>true</IsUplayUser>
+        <AvatarId>3</AvatarId><!-- only present if IsUplayUser is true -->
+        <Quote>ubisoft gaming</Quote>
+        <UserId>1</UserId>
+        <ExternalAccountId>ubisoftgamer</ExternalAccountId>
+        <LastPlayedGameCode>UPLAY</LastPlayedGameCode> <!--TODO: get a list of game codes :P -->
+        <LastSeenDate>2026-01-01T00:00:00Z</LastSeenDate><!-- pretty sure its iso-8901, code splits by a "T" and thats all i can think of -->
+        <UnitsSpent>100</UnitsSpent>
+        <UnitsWon>100</UnitsWon>
+        <LastActionCompletedCode>NOCLUE</LastActionCompletedCode>
+        <LastActionCompletedGameCode>UPLAY</LastActionCompletedGameCode> <!--pretty sure something like "AC3" would be valid here buuuut, UPLAY is also a valid gamecode so prolly fine-->
+        <LastRewardBoughtCode>NOCLUE3</LastRewardBoughtCode>
+        <LastRewardBoughtGameCode>UPLAY</LastRewardBoughtGameCode>
+        <LastFeedPriority>idk</LastFeedPriority>
+        <LastFeedGameCode>UPLAY</LastFeedGameCode>
+        <LastFeedElapsedSeconds>10</LastFeedElapsedSeconds>
+        <LastFeedContent>idk</LastFeedContent>
+        <LastFeedCreatedDate>2026-01-01T00:00:00Z</LastFeedCreatedDate><!-- pretty sure its also iso-8901, something about "convertUTCToDate" -->
+	</ExternalAccountInfoClient>
+</ArrayOfExternalAccountInfoClient>

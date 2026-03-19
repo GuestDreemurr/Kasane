@@ -1,0 +1,33 @@
+<UserGlobal xmlns="http://schemas.datacontract.org/2004/07/Ubisoft.OBD.ProfileServicesFacade.DataContracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <User>
+    <Id>1</Id>
+    <UserName>UplayTesting</UserName>
+    <Email>example@example.com</Email>
+    <FirstName>John</FirstName>
+    <LastName>Uplay</LastName>
+    <BirthDate>1990-01-01</BirthDate>
+    <CountryCode>US</CountryCode>
+    <Gender>M</Gender>
+    <IsUplayUser>true</IsUplayUser>
+    <OptInUbisoft>false</OptInUbisoft>
+    <OptInThirdParty>false</OptInThirdParty>
+    <IsInvalidUbiAccount>false</IsInvalidUbiAccount>
+    <Profile>
+      <UserProfileData><Field>avatar</Field><Value>3</Value></UserProfileData>
+      <UserProfileData><Field>quote</Field><Value>AHHHHHHHHHHHHHHHHHHH</Value></UserProfileData>
+      <UserProfileData><Field>timezone</Field><Value>EST</Value></UserProfileData>
+    </Profile>
+    <ExternalAccounts>
+      <ExternalAccount>
+        <ExternalAccountType>other</ExternalAccountType>
+        <id>UplayTesting</id>
+      </ExternalAccount>
+    </ExternalAccounts>
+  </User>
+  <UplayGames></UplayGames>
+  <Games></Games>
+  <Actions></Actions>
+  <Rewards></Rewards>
+  <History></History>
+  <AccountBalance>500</AccountBalance>
+</UserGlobal>
