@@ -1,5 +1,6 @@
+using System.Dynamic;
 using System.Xml.Linq;
-using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 public static class Utils
 {
@@ -19,6 +20,24 @@ public static class Utils
         {
             Console.WriteLine($"XML Exception: {ex.Message}");
             return null;
+        }
+    }
+    public static string ReadJsonFromFile(string path)
+    {
+        try
+        {
+            string contents = File.ReadAllText(path);
+            return contents ?? "";
+        }
+        catch (FileNotFoundException ex)
+        {
+            Console.WriteLine($"[ReadJsonFromFile] File Not Found! Error: {ex}");
+            return "";
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[ReadJsonFromFile] Error whilst trying to read file: {ex}");
+            return "";
         }
     }
 }
