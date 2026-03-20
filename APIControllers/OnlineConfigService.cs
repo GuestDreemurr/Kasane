@@ -8,8 +8,9 @@ public class OnlineConfigService : ControllerBase
 
 
 [HttpGet("GetOnlineConfigWiiU")]
-public ActionResult<dynamic> GetOnlineConfigWiiU()
+public ActionResult<dynamic> GetOnlineConfigWiiU(string onlineConfigID)
 {
+  Console.WriteLine($"[OnlineConfigService] Client Id: {onlineConfigID}");
     return new[]
     {
         new { Name = "SandboxUrlWIIU",          Values = new[] { "prudp:/address=mdc-mm-rdv21.ubisoft.com;port=22250" } },
