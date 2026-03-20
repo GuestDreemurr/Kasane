@@ -5,96 +5,24 @@ using Microsoft.AspNetCore.Mvc;
 
 public class OnlineConfigService : ControllerBase
 {
-    /*
-    [
-  {
-    "Name": "SandboxUrlWIIU",
-    "Values": [
-      "prudp:/address=mdc-mm-rdv21.ubisoft.com;port=22250"
-    ]
-  },
-  {
-    "Name": "SandboxUrlWS",
-    "Values": [
-      "mdc-mm-rdv21.ubisoft.com:22250"
-    ]
-  },
-  {
-    "Name": "uplay_DownloadServiceUrl",
-    "Values": [
-      "https://wsuplay.ubi.com/UplayServices/UplayFacade/DownloadServicesRESTXML.svc/REST/XML/?url="
-    ]
-  },
-  {
-    "Name": "uplay_DynContentBaseUrl",
-    "Values": [
-      "http://static8.cdn.ubi.com/u/Uplay/"
-    ]
-  },
-  {
-    "Name": "uplay_LinkappBaseUrl",
-    "Values": [
-      "http://static8.cdn.ubi.com/u/Uplay/Packages/linkapp/3.0.0-wiiu/"
-    ]
-  },
-  {
-    "Name": "uplay_MovieBaseUrl",
-    "Values": [
-      "http://static8.cdn.ubi.com/u/Uplay/"
-    ]
-  },
-  {
-    "Name": "uplay_PackageBaseUrl",
-    "Values": [
-      "http://static8.cdn.ubi.com/u/Uplay/Packages/1.5-Share-rc/"
-    ]
-  },
-  {
-    "Name": "uplay_ServiceLspPort",
-    "Values": [
-      "1081"
-    ]
-  },
-  {
-    "Name": "uplay_serviceLSPServerName",
-    "Values": [
-      "UBILSP1"
-    ]
-  },
-  {
-    "Name": "uplay_serviceLspServiceID",
-    "Values": [
-      "0x555307EF"
-    ]
-  },
-  {
-    "Name": "uplay_WebServiceBaseUrl",
-    "Values": [
-      "https://wsuplay.ubi.com/UplayServices/UplayFacade/ProfileServicesFacadeRESTXML.svc/REST/"
-    ]
-  }
-]
-    */
-    [HttpGet("GetOnlineConfigWiiU")]
-    public ActionResult<dynamic> GetOnlineConfigWiiU()
+
+
+[HttpGet("GetOnlineConfigWiiU")]
+public ActionResult<dynamic> GetOnlineConfigWiiU()
+{
+    return new[]
     {
-        // TODO: make this all settable in appsettings.json
-        return new[]
-        {
-            new 
-            {
-                SandboxUrlWIIU = "prudp:/address=mdc-mm-rdv21.ubisoft.com;port=22250",
-                SandboxURLWS = "mdc-mm-rdv21.ubisoft.com:22250",
-                uplay_DownloadServiceUrl = "http://wsuplay.ubi.com/UplayServices/UplayFacade/DownloadServicesRESTXML.svc/REST/XML/?url=",
-                uplay_DynContentBaseUrl = "http://static8.cdn.ubi.com/u/Uplay/",
-                uplay_LinkappBaseUrl = "http://static8.cdn.ubi.com/u/Uplay/Packages/linkapp/3.0.0-wiiu/",
-                uplay_MovieBaseUrl = "http://static8.cdn.ubi.com/u/Uplay/",
-                uplay_PackageBaseUrl = "http://static8.cdn.ubi.com/u/Uplay/Packages/1.5-Share-rc/",
-                uplay_ServiceLspPort = "1081",
-                uplay_serviceLSPServerName = "UBILSP1",
-                uplay_serviceLspServiceID = "0x555307EF",
-                uplay_WebServiceBaseUrl = "http://wsuplay.ubi.com/UplayServices/UplayFacade/ProfileServicesFacadeRESTXML.svc/REST/"
-            }
-        };
-    }
-    }
+        new { Name = "SandboxUrlWIIU",          Values = new[] { "prudp:/address=mdc-mm-rdv21.ubisoft.com;port=22250" } },
+        new { Name = "SandboxUrlWS",             Values = new[] { "mdc-mm-rdv21.ubisoft.com:22250" } },
+        new { Name = "uplay_DownloadServiceUrl", Values = new[] { "http://wsuplay.ubi.com/UplayServices/UplayFacade/DownloadServicesRESTXML.svc/REST/XML/?url=" } },
+        new { Name = "uplay_DynContentBaseUrl",  Values = new[] { "http://static8.cdn.ubi.com/u/Uplay/" } },
+        new { Name = "uplay_LinkappBaseUrl",     Values = new[] { "http://static8.cdn.ubi.com/u/Uplay/Packages/linkapp/3.0.0-wiiu/" } },
+        new { Name = "uplay_MovieBaseUrl",       Values = new[] { "http://static8.cdn.ubi.com/u/Uplay/" } },
+        new { Name = "uplay_PackageBaseUrl",     Values = new[] { "http://static8.cdn.ubi.com/u/Uplay/Packages/1.5-Share-rc/" } },
+        new { Name = "uplay_ServiceLspPort",     Values = new[] { "1081" } },
+        new { Name = "uplay_serviceLSPServerName", Values = new[] { "UBILSP1" } },
+        new { Name = "uplay_serviceLspServiceID",  Values = new[] { "0x555307EF" } },
+        new { Name = "uplay_WebServiceBaseUrl",  Values = new[] { "http://wsuplay.ubi.com/UplayServices/UplayFacade/ProfileServicesFacadeRESTXML.svc/REST/" } },
+    };
+  }
+}

@@ -7,7 +7,7 @@ public class BootstrapService : ProfileService
 {
 
     // known as the UplayUserId api internally.
-    [HttpGet("{user_id}/{platform_code}/{game_code}/{culture}")]
+    [HttpGet("XML/{user_id}/{platform_code}/{game_code}/{culture}")]
     public ActionResult<dynamic> SetupBootstrapService(string user_id, string platform_code, string game_code, string culture)
     {
         // dunno how to handle, return 403
@@ -15,7 +15,7 @@ public class BootstrapService : ProfileService
         {
             return Forbid();
         }
-        string path = Path.Combine(Settings.TemplatesPath, "setupbootstrap.xml");
+        string path = Path.Combine(Settings.TemplatesPath, "user.xml");
         XDocument xmlDoc = Utils.LoadXmlFromFile(path);
         if (xmlDoc == null)
         {
