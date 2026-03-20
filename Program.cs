@@ -32,7 +32,13 @@ if (app.Environment.IsDevelopment())
 Settings.TemplatesPath = configuration.GetSection("TemplatesPath").Value!;
 
 //app.UseHttpsRedirection(); // WHILE uplay does seemingly have support for https, we have no feasible way of patching urls rn so we stay on HTTP primarily for development reasons.
-app.UseHttpLogging();
+app.Use(async (context, next) =>
+{
+    var start = DateTime.UtcNow;
+    await next();
+    var ms = (DateTime.UtcNow - start).TotalMilliseconds;
+    Console.WriteLine($"{context.Request.Method} {context.Request.Path} {context.Response.StatusCode} {ms:0}ms");
+});
 app.UseStaticFiles();
 app.MapControllers();
 app.Run();
