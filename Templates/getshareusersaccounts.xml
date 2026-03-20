@@ -17,7 +17,7 @@
         <LastFeedPriority>idk</LastFeedPriority>
         <LastFeedGameCode>UPLAY</LastFeedGameCode>
         <LastFeedElapsedSeconds>10</LastFeedElapsedSeconds>
-        <LastFeedContent>idk</LastFeedContent>
+        <!--<LastFeedContent>idk</LastFeedContent>!--> <!--commenting this will make lastfeed not get parsed-->
         <LastFeedCreatedDate>2026-01-01T00:00:00Z</LastFeedCreatedDate><!-- pretty sure its also iso-8901, something about "convertUTCToDate" -->
 	</ExternalAccountInfoClient>
 </ArrayOfExternalAccountInfoClient>
