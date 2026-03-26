@@ -6,16 +6,16 @@
         <Quote>ubisoft gaming</Quote>
         <UserId>1</UserId>
         <ExternalAccountId>ubisoftgamer</ExternalAccountId>
-        <LastPlayedGameCode>UPLAY</LastPlayedGameCode> <!--TODO: get a list of game codes :P -->
+        <LastPlayedGameCode>AC3</LastPlayedGameCode> <!--TODO: get a list of game codes :P -->
         <LastSeenDate>2026-01-01T00:00:00Z</LastSeenDate><!-- pretty sure its iso-8901, code splits by a "T" and thats all i can think of -->
         <UnitsSpent>100</UnitsSpent>
         <UnitsWon>100</UnitsWon>
         <LastActionCompletedCode>NOCLUE</LastActionCompletedCode>
-        <LastActionCompletedGameCode>UPLAY</LastActionCompletedGameCode> <!--pretty sure something like "AC3" would be valid here buuuut, UPLAY is also a valid gamecode so prolly fine-->
+        <LastActionCompletedGameCode>AC3</LastActionCompletedGameCode> <!--pretty sure something like "AC3" would be valid here buuuut, UPLAY is also a valid gamecode so prolly fine-->
         <LastRewardBoughtCode>NOCLUE3</LastRewardBoughtCode>
-        <LastRewardBoughtGameCode>UPLAY</LastRewardBoughtGameCode>
+        <LastRewardBoughtGameCode>AC3</LastRewardBoughtGameCode>
         <LastFeedPriority>idk</LastFeedPriority>
-        <LastFeedGameCode>UPLAY</LastFeedGameCode>
+        <LastFeedGameCode>AC3</LastFeedGameCode>
         <LastFeedElapsedSeconds>10</LastFeedElapsedSeconds>
         <!--<LastFeedContent>idk</LastFeedContent>!--> <!--commenting this will make lastfeed not get parsed-->
         <LastFeedCreatedDate>2026-01-01T00:00:00Z</LastFeedCreatedDate><!-- pretty sure its also iso-8901, something about "convertUTCToDate" -->

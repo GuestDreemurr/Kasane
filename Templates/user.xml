@@ -13,7 +13,7 @@
     <OptInThirdParty>false</OptInThirdParty>
     <IsInvalidUbiAccount>false</IsInvalidUbiAccount>
     <Profile>
-      <UserProfileData><Field>avatar</Field><Value>3</Value></UserProfileData>
+      <UserProfileData><Field>avatar</Field><Value>3</Value></UserProfileData> <!--need to figure out what the value means-->
       <UserProfileData><Field>quote</Field><Value>AHHHHHHHHHHHHHHHHHHH</Value></UserProfileData>
       <UserProfileData><Field>timezone</Field><Value>EST</Value></UserProfileData>
     </Profile>
@@ -24,8 +24,72 @@
       </ExternalAccount>
     </ExternalAccounts>
   </User>
-  <UplayGames></UplayGames>
-  <Games></Games>
+  <UplayGames>
+    <Game>
+      <Code>
+        AC3
+      </Code>
+      <Name>Assassin's Creed 3</Name>
+      <AgeRatingSystem>ESRB</AgeRatingSystem>
+      <AgeRatingValue>M</AgeRatingValue>
+      <AgeRatingValueUrl>AgeRating/ESRB/Values/M.png</AgeRatingValueUrl>
+      <AgeRatingDescriptors>
+        <Descriptor>
+          <Name>Blood</Name>
+          <ImageUrl>todo.png</ImageUrl> <!-- useless? not sure..-->
+        </Descriptor>
+        <Descriptor>
+          <Name>Intense Violence</Name>
+          <ImageUrl>todo.png</ImageUrl>
+        </Descriptor>
+        <Descriptor>
+          <Name>Sexual Themes</Name>
+          <ImageUrl>todo.png</ImageUrl>
+        </Descriptor>
+        <Descriptor>
+          <Name>Strong Language</Name>
+          <ImageUrl>todo.png</ImageUrl>
+        </Descriptor>
+      </AgeRatingDescriptors>
+
+      <ImagesLocalized>
+      <Image>
+        <Code>background</Code>
+        <Url>unknown.png</Url>
+      </Image>
+      <Image>
+        <Code>packshot</Code>
+        <Url>unknown.png</Url>
+      </Image>
+      <Image>
+        <Code>bounceImage</Code>
+        <Url>Games/AC3/gameImg/bounceImage.jpg</Url>
+      </Image>
+      <Image>
+        <Code>newsThumb</Code>
+        <Url>Games/AC3/gameImg/newsThumb.jpg</Url>
+      </Image>
+      <Image>
+        <Code>hqLogo</Code>
+        <Url>Games/AC3/gameImg/hqLogo.png</Url>
+      </Image>
+      <Image>
+        <Code>boxArt</Code>
+        <Url>Games/AC3/gameImg/boxArt.png</Url>
+      </Image>
+      <Image>
+        <Code>titleBanner</Code>
+        <Url>Games/AC3/gameImg/titleBanner.png</Url>
+      </Image>
+    </ImagesLocalized>
+      <AuthorizedRssChannels>channel1,channel2</AuthorizedRssChannels>
+    </Game>
+  </UplayGames>
+  <Games>
+    <Game>
+      <Code>AC3</Code> <!--since we ARE the server, we can probably make up our own game codes, prolly shouldn't for obvious reasons-->
+    </Game>
+  </Games>
   <Actions></Actions>
   <Rewards></Rewards>
   <History></History>
