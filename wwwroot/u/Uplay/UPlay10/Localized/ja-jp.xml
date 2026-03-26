@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-16"?>
+<oasis oasisVersion="1.00" toolVersion="1.0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ubisoft.com/oasis/2009/extractor oasis_loc.xsd" xmlns="http://schemas.ubisoft.com/oasis/2009/extractor">
+    <translations language="Japanese">
+        <t id="626" name="Help" text="Help" />
+        <t id="634" name="Button_Play" text="再生" />
+        <t id="635" name="Button_Pause" text="一時停止" />
+        <t id="636" name="Button_Stop" text="停止" />
+        <t id="637" name="Menu_Official" text="オフィシャル" />
+        <t id="638" name="Menu_Walkthrough" text="攻略ガイド" />
+        <t id="1280" name="Menu_HintsAndTips" text="ヒント" />
+        <t id="1281" name="Carousel_Walkthrough" text="攻略ムービーを見る" />
+        <t id="1282" name="Carousel_HintsAndTips" text="高度なプレイを極めよう" />
+        <t id="1283" name="Duration_Label" text="時間" />
+        <t id="1284" name="Help_ContentUnavailable" text="このゲームでは利用できません。" />
+        <t id="1285" name="Button_ViewMore" text="もっと見る" />
+        <t id="2167" name="Show_video_controller" text="操作パネルを表示" />
+        <t id="2168" name="Hide_video_controller" text="操作パネルを隠す" />
+        <t id="5771" name="Help_ConnectionError" text="ネットワーク接続の問題により、要求されたコンテンツを表示できません。接続を確認してから、もう一度お試しください。" />
+        <t id="5797" name="Button_Scan" text="&lt;&lt; | &gt;&gt;" />
+        <t id="6259" name="Button_HdSd" text="HD/SD" />
+        <t id="12" name="Header_Playing" text="プレイ中" />
+        <t id="13" name="Button_Select" text="決定" />
+        <t id="14" name="Button_Exit" text="終了" />
+        <t id="15" name="Button_Home" text="ホーム" />
+        <t id="16" name="Button_Back" text="戻る" />
+        <t id="17" name="Button_Cancel" text="キャンセル" />
+        <t id="42" name="Carousel_comingsoon" text="Coming Soon" />
+        <t id="6238" name="Carousel_comingsoon2" text="Coming Soon" />
+        <t id="616" name="Loading_page" text="Uplayをロードしています" />
+        <t id="641" name="Carousel_Rewards" text="リワードを確認、獲得" />
+        <t id="642" name="Carousel_Actions" text="Uplayアクションを確認" />
+        <t id="643" name="Carousel_Units" text="ポイントの履歴を見る" />
+        <t id="644" name="Carousel_Account" text="アカウント管理" />
+        <t id="645" name="Carousel_Profile" text="プロフィールをアップデート" />
+        <t id="705" name="Carousel_Official" text="動画を見る" />
+        <t id="838" name="Msg_returntogame_UI" text="ゲームに戻る" />
+        <t id="6363" name="Label_expo_notification" text="New" />
+        <t id="5798" name="Carousel_notavailable" text="利用不可" />
+        <t id="6355" name="UPLAYTV" text="TV" />
+        <t id="6492" name="TV_desc" text="TVは新しいUbisoftのゲームを紹介するあなた専用のビデオチャンネルです。HDトレーラーやウォークスルー、そしてイベントなど内容も盛り沢山！" />
+        <t id="6509" name="Shop_description" text="ShopではUbisoftの好きなゲームのダウンロードコンテンツを閲覧したり購入したりできます。" />
+        <t id="6365" name="Page_label_game_selection" text="ゲーム一覧" />
+        <t id="6364" name="Carousel_caption_uplaytv" text="動画を見る" />
+        <t id="4718" name="carousel_caption_shop_promotion" text="購入可能なプロモーションを見る" />
+        <t id="6449" name="visite_uplay_button" text="Uplay を訪問" />
+        <t id="6470" name="Page_label_game_selection_wiiu" text="ゲームを選択" />
+        <t id="6467" name="Carousel_caption_browse_games" text="Ubisoftゲーム一覧" />
+        <t id="6464" name="Msg_exituplay" text="Uplayを終了しています・・・" />
+        <t id="6480" name="Credit_uplay_mtl" text="UPLAY MONTREAL&#xA;&#xA;Online Technology Group Director&#xA;Jimmy Boulianne&#xA;&#xA;Development Director&#xA;Jesse Henderson&#xA;&#xA;Production Managers&#xA;Lara Derham&#xA;Julie Paulin-Tardif&#xA;&#xA;Product Managers&#xA;Jean-Francois Renaud&#xA;Kris Young&#xA;&#xA;DESIGN&#xA;&#xA;Game Designers&#xA;Adrien Banet-Rivet&#xA;Ghina El-Chemali&#xA;&#xA;PROGRAMMING&#xA;&#xA;Technical Architect&#xA;Eric Fortin&#xA;&#xA;Team Lead Engine&#xA;Victor Zachev&#xA;&#xA;Team Lead Services&#xA;Sylvain Demers&#xA;&#xA;Team Lead Mobile&#xA;Michel Gauthier&#xA;&#xA;Technical Lead Services&#xA;Charles-Simon Viau&#xA;&#xA;Technical Lead User Experience&#xA;Franck Murcia&#xA;&#xA;Engine Programmers&#xA;Sébastien Church&#xA;Rodrigue Cloutier&#xA;Pierre Daigle&#xA;David Genest&#xA;Frédéric Gaudet&#xA;Xavier Vautier&#xA;&#xA;Mobile Programmers&#xA;Frankie Chan&#xA;Agnieszka Nowakowska&#xA;&#xA;Services Programmers&#xA;Francis Falardeau&#xA;Dragos Cristian Filipescu&#xA;Hervé Grosdemanche&#xA;Hector Salazar&#xA;&#xA;User Experience Programmers&#xA;Abedenour Azzedine&#xA;Paolo Di Stefano&#xA;Jean-Charles Fontaine&#xA;&#xA;ART&#xA;&#xA;Menu &amp; UI Artists&#xA;Guillaume Gauthier&#xA;Yanick Sénéchal&#xA;Ève Saint-Onge&#xA;&#xA;TOOLS &amp; AUTOMATION&#xA;&#xA;Release &amp; Build Specialists&#xA;Patrick du Boucher&#xA;Joshua Heath&#xA;&#xA;Programmers&#xA;Anh Bang Bui&#xA;&#xA;QUALITY ASSURANCE&#xA;&#xA;Team Lead&#xA;Martin Leclerc&#xA;&#xA;Tools Support Specialists&#xA;Laurie Poirier &#xA;Martin Tavernier&#xA;&#xA;OPERATIONS&#xA;&#xA;Operations Support Specialist&#xA;Jean-François Gauthier&#xA;&#xA;COMPLIANCE&#xA;&#xA;Lead Compliance Specialist&#xA;Olivier Dignard&#xA;&#xA;Compliance Specialists&#xA;Stéphane Arbour&#xA;Martin Bilodeau&#xA;Olivier Guilbault&#xA;Sophiakmony Khai&#xA;Francis Quintal&#xA;&#xA;UBISOFT BUCHAREST&#xA;&#xA;QUALITY CONTROL &#xA;&#xA;Team Lead&#xA;George Ciprian Roibu&#xA;&#xA;Testers&#xA;Victor Gont&#xA;Alexandru Bitulescu&#xA;&#xA;UPLAY.COM&#xA;&#xA;Web Services Manager&#xA;Cyril Beaudaux&#xA;&#xA;Web Production Manager&#xA;Giovanni Del Pozzo&#xA;&#xA;Web Producer&#xA;Clement Letzelter&#xA;&#xA;Webmasters&#xA;Alexandre Loisel&#xA;David Quiquempoix&#xA;&#xA;Web Application Manager&#xA;Emmanuel Dru&#xA;&#xA;EMEA Digital Marketing Group Manager&#xA;Stéphane Catherine&#xA;&#xA;EMEA CRM Manager&#xA;Damien Glorieux&#xA;&#xA;Community Development Managers&#xA;Philip Navidad&#xA;Bruno Guérin&#xA;&#xA;US Senior Mgr, CRM and Loyalty&#xA;Scott Dixon&#xA;&#xA;US Manager, Loyalty and CRM&#xA;Dan Morrill&#xA;&#xA;Video Production&#xA;Philip Navidad&#xA;Scott Dixon&#xA;&#xA;INTERNATIONAL CREDITS&#xA;&#xA;Publisher&#xA;Ubisoft Entertainment&#xA;&#xA;President and CEO&#xA;Yves Guillemot&#xA;&#xA;Executive Director, Worldwide Studios&#xA;Christine Burgess-Quémard&#xA;&#xA;Chief Creative Officer&#xA;Serge Hascoët&#xA;&#xA;Worldwide Content Director&#xA;Lionel Raynaud&#xA;&#xA;Production and LD Director&#xA;Jean-Marc Geffroy&#xA;&#xA;Pre-production Director&#xA;Yann Masson&#xA;&#xA;Conception and GD Director&#xA;Eric Couzian&#xA;&#xA;Online Content Director&#xA;Elisabeth Pellen&#xA;&#xA;CCO- Executive Assistant&#xA;Mattheo Buxtorf&#xA;&#xA;Editorial Direction Assistant&#xA;Sarah Levy&#xA;&#xA;Technical and Data Manager Assistant&#xA;Adrien Anger&#xA;&#xA;Ubi IP Director&#xA;Tommy François&#xA;&#xA;IP Development (Ubi IP)&#xA;Julien Charpentier&#xA;Julian Gerighty&#xA;Xavier Guilbert&#xA;Michiel Verheijdt&#xA;Sam Strachman&#xA;&#xA;Gameplay Engineering and Entertainment Analysis Director&#xA;Cyril Derouineau&#xA;&#xA;Process and Methods Director&#xA;Michel Pierfitte&#xA;&#xA;User Research Engineer&#xA;Franck Sacchi&#xA;&#xA;FSO and GD Expert&#xA;Patrick Plourde&#xA;&#xA;Animation Expert&#xA;Gilles Monteil&#xA;&#xA;Narration and Real Expert&#xA;Arnaud Labaronne&#xA;&#xA;Movie Edition&#xA;Julien Laurent&#xA;&#xA;Story Expert&#xA;Olivier Henriot&#xA;&#xA;Brand Expert&#xA;Jason Vanderbergh&#xA;&#xA;Worldwide Studios Casual Games Online Director&#xA;Stephanie Perotti&#xA;&#xA;Online Services Manager&#xA;Julien Hummer&#xA;&#xA;Uplay Brand Development Manager&#xA;Alexandra Andrieux&#xA;&#xA;Online Services&#xA;Online Services Project Manager - Cécile Glorieux&#xA;Online Services Analyst - Julien Csikai&#xA;Online Business Coordination Manager  - Anne-Catherine Chartres&#xA;Online Technical Coordination Manager - Fabrice Pierre Elien&#xA;&#xA;Web Services&#xA;Web Services Manager - Cyril Beaudaux&#xA;Web Services Technical Manager - Alexandre Loisel&#xA;Web Services Technical Assistant - Silvère Ducros&#xA;&#xA;Web Producers&#xA;Web Production Manager - Giovanni del Pozzo&#xA;Web Producers - Jérôme Athier&#xA;Web Producers - Juliette Becquart&#xA;Web Producers - Maxence Leret d'Aubigny&#xA;Web Producer Assistant - Simon Robichon&#xA;&#xA;Web Applications&#xA;Web Applications Manager - Emmanuel Dru&#xA;Web Applications Project Managers - Susan Papoz&#xA;Web Applications Project Managers - Matthieu Caix&#xA;Web Applications Project Managers - Romain Piegay&#xA;&#xA;Worldwide Production Coordination Director&#xA;Anne Blondel-Jouin&#xA;&#xA;Project Coordination Director&#xA;Nicolas Schoener&#xA;&#xA;Production Coordination Manager(s)&#xA;Thomas Baillet&#xA;Benjamin Haddad&#xA;François Jaspart&#xA;Grégory Spielmann&#xA;Loic Jacolin&#xA;Guillaume Gad&#xA;&#xA;Cross-Functional Projects Manager&#xA;Thomas Gerbaud&#xA;&#xA;DMIS Manager&#xA;Philippe Ponce&#xA;&#xA;DMIS Technical Coordinator&#xA;Nicolae Jan Sercaianu&#xA;&#xA;DMIS Mastering Specialist&#xA;Yohann Robert&#xA;&#xA;Certification&#xA;Certifications Manager - Corentin Francois&#xA;Certification Coordinator - Age Rating   Céline Paiva&#xA;Age Rating Assistant - Jean-Marie Mogentale&#xA;EMEA Certification Specialists - Anis Boujaouane, Julien Jacquet&#xA;Certification Assistant - Karima Touali&#xA;Certifications Data Manager - Alexandre Chamoy&#xA;&#xA;US Production&#xA;US Director, Production Planning and Customer Support - Brent Wilkinson&#xA;US Production Planning Manager - Adam Zachary&#xA;US Production Coordinator - Gregory Capuano, Anthony Urso&#xA;&#xA;North American Age Rating&#xA;North American Age Rating Manager - Shannon Kokoska&#xA;North American Age Rating Coordinator - Ben White&#xA;North American Age Rating Specialist - Edwin Zee&#xA;&#xA;Studios Operations Director&#xA;Pierre Escaich&#xA;&#xA;Games Lab Manager&#xA;Sébastien Odasso&#xA;&#xA;Global Brand Strategy Director&#xA;Hélène Juguet&#xA;&#xA;Head of Consumer and Market Knowledge (CMK)&#xA;Frédérique Burlot&#xA;&#xA;CMK Director&#xA;Charles Du Réau&#xA;Sophie Mourey&#xA;&#xA;CMK Managers&#xA;Sophie Stumpf&#xA;Sandra Bystrom&#xA;Régis Decombe&#xA;Hicham Laabi&#xA;Louis-Gabriel Le Foyer&#xA;&#xA;CMK Senior Analysts&#xA;Pierre-Henri Traboulsi&#xA;Sybille Lopez&#xA;&#xA;CMK Analysts&#xA;Annelise Bourelle&#xA;Aimeric Hauet&#xA;Nicolas Hoestlandt&#xA;Grégoire Laloux&#xA;Simon Lejarre&#xA;&#xA;CMK Analysts&#xA;Maxime Revol&#xA;Raphaël Doyen&#xA;Maude Blouin&#xA;Jérôme Collette" />
+        <t id="6482" name="label_my_uplay" text="マイUplay" />
+        <t id="6481" name="label_credits" text="クレジット" />
+        <t id="6503" name="Button_show_infos" text="詳細" />
+        <t id="6502" name="Button_hide_infos" text="隠す" />
+        <t id="6504" name="EditAvatarDisabledMsg" text="Uplay.comでアバターを編集できます" />
+        <t id="6531" name="Page_label_game_selection_empty" text="あなたはUplay対応のゲームをプレイしていません。ニンテンドーeショップやお店にて購入してプレイしてください。" />
+        <t id="7323" name="Recommended_password_change" text="ご利用のUplayアカウントに関連する情報―安全に関する通知&#xA;安全上の理由から、パスワードを定期的に変更することをお勧めしています。Uplay.comで今すぐ変更できます。" />
+        <t id="28" name="Menu_Profile" text="プロフィール" />
+        <t id="29" name="SubMenu_Viewprofile" text="プロフィールを見る" />
+        <t id="31" name="Winprofileinfo_Unit balance" text="ポイント残高" />
+        <t id="32" name="Winprofileinfo_RewardSummary" text="リワード獲得" />
+        <t id="35" name="SubMenu_ChangeIcon" text="アイコン変更" />
+        <t id="36" name="SubMenu_ChangeQuote" text="公開メッセージを変更" />
+        <t id="39" name="SubMenu_Accountsettings" text="アカウント" />
+        <t id="19" name="Textbox_Dateofbirth" text="生年月日" />
+        <t id="44" name="SubMenu_Email and Password" text="Eメールとパスワードの変更" />
+        <t id="45" name="SubMenu_PersonnalInformation" text="個人情報" />
+        <t id="46" name="SubMenu_Opt-ins" text="お知らせの設定" />
+        <t id="47" name="Confirmbutton_Submit" text="送信" />
+        <t id="49" name="Textbox_Confirmpassword" text="新しいパスワードを再入力" />
+        <t id="50" name="Textbox_Newpassword" text="新しいパスワード" />
+        <t id="51" name="Radio_Male" text="男性" />
+        <t id="52" name="Radio_Female" text="女性" />
+        <t id="53" name="Check_box_1" text="タイトルのボーナスコンテンツなどについて通知を受ける。" />
+        <t id="54" name="Check_box_2" text="Ubisoft全体のボーナスコンテンツなどについて通知を受ける。" />
+        <t id="55" name="SubMenu_ChooseIcon" text="選択アイコン" />
+        <t id="56" name="Sidetext_Icondetails" text="アイコン詳細" />
+        <t id="57" name="Sidetext_Icons" text="アイコン" />
+        <t id="58" name="Textbox_Quote" text="新しい公開メッセージ" />
+        <t id="6484" name="Quote_UGC_warning" text="メッセージをフレンドとシェアする" />
+        <t id="87" name="Uplay" text="Uplay" />
+        <t id="89" name="Textbox_dd" text="日" />
+        <t id="90" name="Textbox_firstname" text="名前を入力" />
+        <t id="91" name="Textbox_lastname" text="姓を入力" />
+        <t id="92" name="Textbox_mm" text="月" />
+        <t id="93" name="Textbox_yy" text="年" />
+        <t id="614" name="Textbox_Newemail" text="新しいEメールアドレス" />
+        <t id="624" name="Msg_EnterQuote" text="公開メッセージを入力してください" />
+        <t id="629" name="Menu_About" text="ついて" />
+        <t id="631" name="Icon_name_Ezio" text="Ezio" />
+        <t id="640" name="Quote_exceeded" text="公開メッセージは25文字までしか入力できません。もう一度お試しください。" />
+        <t id="702" name="Icon_name_MajorJoeSheridan" text="Major Joe Sheridan" />
+        <t id="703" name="Textbox_yyyy" text="年" />
+        <t id="779" name="Icon_name_TheCaptain" text="The Captain" />
+        <t id="780" name="Icon_name_SE7" text="The Settlers 7" />
+        <t id="630" name="Game_name_AssassinsCreedII" text="Assassin's Creed II" />
+        <t id="646" name="Game_name_SplinterCellConviction" text="Splinter Cell Conviction" />
+        <t id="647" name="Game_name_RUSE" text="R.U.S.E." />
+        <t id="708" name="Game_name_TheSettlers7" text="The Settlers 7" />
+        <t id="709" name="Game_name_SilentHunter5" text="Silent Hunter 5" />
+        <t id="834" name="Icon_name_SamFisher" text="Sam Fisher" />
+        <t id="828" name="Icon_name_ThePrince" text="The Prince" />
+        <t id="829" name="Icon_desc_ThePrince" text="ペルシャ帝国の王子にして偉大なるシャラマン王の息子。優れた冒険家であると同時に屈強な戦士でもある。" />
+        <t id="831" name="Game_name_PTM" text="Prince of Persia: TFS" />
+        <t id="836" name="Game_name_PFB" text="Pure Football" />
+        <t id="837" name="Icon_name_StevenGerrard" text="Steven Gerrard" />
+        <t id="4352" name="Icon_name_DavidCrenshaw" text="David Crenshaw" />
+        <t id="4675" name="Icon_name_ShaunWhite" text="Shaun White" />
+        <t id="6354" name="Error_msg_age" text="年齢を入力してください" />
+        <t id="6353" name="Label_form" text="年齢" />
+        <t id="7209" name="Msg_UplayAppDesc" text="    Uplayとはなんですか？&#xA;&#xA;UplayはUbisoftのゲームプレイヤーに様々な特典やコンテンツをもたらすサービスです。&#xA;&#xA;Uplayゲットは、Uplay対応のゲーム内で特定のアクションを行うことで「Uポイント」と呼ばれるポイントを獲得できるシステムです。ポイントはリワードの交換または、貯まったポイントを他のUplayに対応しているゲームに使用することができます。" />
+        <t id="18" name="Menu_Units" text="ポイント" />
+        <t id="20" name="Menu_Actions" text="アクション" />
+        <t id="21" name="Confirm_Redeem" text="獲得する" />
+        <t id="24" name="Confirmbutton_Confirm" text="確認" />
+        <t id="40" name="Menu_Rewards" text="リワード" />
+        <t id="43" name="Winrpofileinfo_of" text="/" />
+        <t id="11" name="Header_U" text="U" />
+        <t id="48" name="Blade_SearchGames" text="ゲーム一覧" />
+        <t id="59" name="Sidetext_Action details" text="アクション詳細" />
+        <t id="30" name="Winprofileinfo_Action Summary" text="アクション完了" />
+        <t id="60" name="Sidetext_Rewarddetails" text="リワード詳細" />
+        <t id="61" name="Confirmtext_Redeemfor" text="{game}のリワードを獲得。" />
+        <t id="62" name="Sidetext_Unitdetails" text="ポイント詳細" />
+        <t id="86" name="Button_Download" text="ダウンロード" />
+        <t id="88" name="Win" text="Win" />
+        <t id="94" name="Asktext_redeemfor" text="{reward}のリワードを獲得しますか？" />
+        <t id="95" name="Header_date" text="日" />
+        <t id="96" name="Header_game" text="タイトル" />
+        <t id="97" name="Header_transaction" text="内容" />
+        <t id="105" name="Detailstransaction_redeemed" text="{date}に{number}ポイントを使用しました" />
+        <t id="106" name="Detailstransaction_earned" text="{date}に{number}ポイント獲得した" />
+        <t id="359" name="Reward_Notenoughunits" text="ポイントが不足しているためこのリワードは獲得できません。" />
+        <t id="360" name="Reward_owngame" text="このリワードを獲得するには対応するタイトルを所持している必要があります。" />
+        <t id="615" name="Reward_downloadagainps3" text="このリワードを再度ダウンロードするには、PlayStation®3本体メニューのダウンロードリストをご覧ください" />
+        <t id="639" name="Linkaccount_Action0_desc" text="Uplayへようこそ！" />
+        <t id="710" name="buttonPower" text="PAWW!" />
+        <t id="6496" name="Days_remaining" text="残り日数" />
+        <t id="6495" name="Remaining" text="残り" />
+        <t id="66" name="Button_Ok" text="OK" />
+        <t id="67" name="Button_Yes" text="はい" />
+        <t id="68" name="Button_No" text="いいえ" />
+        <t id="69" name="Button_TryAgain" text="もう一度" />
+        <t id="70" name="Msg_Internal" text="内部エラーが発生しました。もう少し待ってから、もう一度お試しください。" />
+        <t id="71" name="Msg_tryagain" text="エラーが発生しました。もう一度お試しください。" />
+        <t id="72" name="Msg_empty_invalid" text="送信された情報は何もないか無効です。" />
+        <t id="73" name="Msg_email" text="Eメールアドレスに誤りがないことを確認した上でもう一度お試しください。" />
+        <t id="74" name="Msg_reward" text="このリワードはすでに獲得しています。" />
+        <t id="75" name="Msg_action" text="このアクションはすでに完了しています。" />
+        <t id="76" name="Err_units" text="ポイントが不足しているためこのリワードは獲得できません。" />
+        <t id="77" name="Msg_Exit" text="本当に終了しますか？" />
+        <t id="78" name="Msg_action_notactive" text="このアクションは現在利用できません。" />
+        <t id="79" name="Msg_reward_notactive" text="このリワードは現在利用できません。" />
+        <t id="80" name="Msg_request_tryagain" text="現在、このリクエストを完了できません。後でもう一度お試しください。" />
+        <t id="82" name="Title_Oops" text="エラー" />
+        <t id="83" name="Title_Error" text="エラー" />
+        <t id="84" name="Msg_emailadress_alreadyinuse" text="このEメールアドレスは、別のUbisoftアカウントにですでに使用されています。別のEメールアドレスを入力してください。セキュリティ上、このアドレスはご利用いただけません。別のEメールアドレスを入力するか、別のUbisoftアカウントでログインしてください。" />
+        <t id="85" name="Msg_passwordrules" text="パスワードは8から16文字で、文字と数字を必ず含んでいる必要があります。アンダーバーやドット、ダッシュは使用できますが、ユーザー名を含まないようにしてください。" />
+        <t id="98" name="Err_lastname" text="入力した姓を確認し、もう一度お試しください。" />
+        <t id="99" name="Err_firstname" text="入力した名前を確認し、もう一度お試しください。" />
+        <t id="100" name="Err_emailalreadyinuse" text="このEメールアドレスは、別のUbisoftアカウントですでに使用されています。別のEメールアドレスを入力してください。セキュリティ上の理由により、このアドレスはご利用いただけません。別のEメールアドレスを入力してください。" />
+        <t id="101" name="Error_passwordusername" text="セキュリティ上の理由により、パスワードにユーザーネームを入れることはできません。別のパスワードを入力してください。" />
+        <t id="102" name="Err_agerestriction" text="あなたの国ではUbisoftアカウントに年齢制限をかけているため、現在、Ubisoftアカウントを発行することはできません。" />
+        <t id="103" name="Err_passwordcaracters" text="パスワードは6から16文字で、文字と数字を必ず含んでいる必要があります。アンダーバーやドット、ダッシュは使用できますが、ユーザー名を含まないようにしてください。" />
+        <t id="104" name="Err_vulgarwords" text="禁止用語が含まれています。" />
+        <t id="107" name="Msg_date" text="入力した日付をを確認し、もう一度お試しください。" />
+        <t id="64" name="Msg_offensive_content" text="入力した文章に禁止用語が含まれています。禁止用語は使用できません。" />
+        <t id="617" name="Title_Exitpopup" text="Uplayを終了" />
+        <t id="625" name="Msg_passwords_dont_match" text="パスワードが一致しません。もう一度お試しください。" />
+        <t id="633" name="Err_product_info" text="コンテンツは現在利用できません。" />
+        <t id="728" name="Reward_no_disk" text="対応するゲームディスクがない場合は、このリワードはインストールできません。" />
+        <t id="729" name="Theme_Install_success" text="テーマのインストールが完了しました。" />
+        <t id="730" name="Theme_install_failure" text="テーマのインストールに失敗しました。" />
+        <t id="731" name="Saving_Content" text="セーブしています。本体の電源を切らないでください。" />
+        <t id="839" name="Saving_Content_PS3" text="セーブしています。本体の電源を切らないでください。" />
+        <t id="108" name="AF" text="Afghanistan" />
+        <t id="205" name="AX" text="Åland Islands" />
+        <t id="482" name="PY" text="Paraguay" />
+        <t id="481" name="PG" text="Papua New Guinea" />
+        <t id="480" name="PA" text="Panama" />
+        <t id="479" name="PS" text="Occupied Palestinian Territory" />
+        <t id="478" name="PW" text="Palau" />
+        <t id="477" name="PK" text="Pakistan" />
+        <t id="476" name="OM" text="Oman" />
+        <t id="475" name="NO" text="Norway" />
+        <t id="474" name="MP" text="Northern Mariana Islands" />
+        <t id="473" name="NF" text="Norfolk Island" />
+        <t id="472" name="NU" text="Niue" />
+        <t id="471" name="NG" text="Nigeria" />
+        <t id="470" name="NE" text="Niger" />
+        <t id="469" name="NI" text="Nicaragua" />
+        <t id="468" name="NZ" text="New Zealand" />
+        <t id="467" name="NC" text="New Caledonia" />
+        <t id="466" name="AN" text="Netherlands Antilles" />
+        <t id="465" name="NL" text="Netherlands" />
+        <t id="464" name="NP" text="Nepal" />
+        <t id="463" name="NR" text="Nauru" />
+        <t id="462" name="NA" text="Namibia" />
+        <t id="461" name="MM" text="Myanmar" />
+        <t id="460" name="MZ" text="Mozambique" />
+        <t id="459" name="MA" text="Morocco" />
+        <t id="458" name="MS" text="Montserrat" />
+        <t id="457" name="ME" text="Montenegro" />
+        <t id="456" name="MN" text="Mongolia" />
+        <t id="455" name="MC" text="Monaco" />
+        <t id="454" name="MD" text="Moldova" />
+        <t id="453" name="FM" text="Micronesia" />
+        <t id="452" name="MX" text="Mexico" />
+        <t id="451" name="YT" text="Mayotte" />
+        <t id="450" name="MU" text="Mauritius" />
+        <t id="449" name="MR" text="Mauritania" />
+        <t id="448" name="MQ" text="Martinique" />
+        <t id="447" name="MH" text="Marshall Islands" />
+        <t id="446" name="MT" text="Malta" />
+        <t id="445" name="ML" text="Mali" />
+        <t id="444" name="MV" text="Maldives" />
+        <t id="443" name="MY" text="Malaysia" />
+        <t id="442" name="MW" text="Malawi" />
+        <t id="441" name="MG" text="Madagascar" />
+        <t id="440" name="MK" text="Macedonia" />
+        <t id="439" name="MO" text="Macao" />
+        <t id="438" name="LU" text="Luxembourg" />
+        <t id="437" name="LT" text="Lithuania" />
+        <t id="436" name="LI" text="Liechtenstein" />
+        <t id="435" name="LY" text="Libyan Arab Jamahiriya" />
+        <t id="434" name="LR" text="Liberia" />
+        <t id="433" name="LS" text="Lesotho" />
+        <t id="432" name="LB" text="Lebanon" />
+        <t id="431" name="LV" text="Latvia" />
+        <t id="430" name="LA" text="Lao People's Democratic Republic" />
+        <t id="429" name="KG" text="Kyrgyzstan" />
+        <t id="428" name="KW" text="Kuwait" />
+        <t id="427" name="KR" text="Republic of Korea" />
+        <t id="426" name="KP" text="Korea" />
+        <t id="425" name="KI" text="Kiribati" />
+        <t id="424" name="KE" text="Kenya" />
+        <t id="423" name="KZ" text="Kazakhstan" />
+        <t id="422" name="JO" text="Jordan" />
+        <t id="421" name="JE" text="Jersey" />
+        <t id="420" name="JP" text="日本" />
+        <t id="419" name="JM" text="Jamaica" />
+        <t id="418" name="IT" text="Italy" />
+        <t id="417" name="IL" text="Israel" />
+        <t id="416" name="IM" text="Isle of Man" />
+        <t id="415" name="IE" text="Ireland" />
+        <t id="414" name="IQ" text="Iraq" />
+        <t id="413" name="IR" text="Islamic Republic of Iran" />
+        <t id="412" name="ID" text="Indonesia" />
+        <t id="411" name="IN" text="India" />
+        <t id="410" name="IS" text="Iceland" />
+        <t id="409" name="HU" text="Hungary" />
+        <t id="408" name="HK" text="Hong Kong" />
+        <t id="407" name="HN" text="Honduras" />
+        <t id="406" name="VA" text="Holy see (vatican city state)" />
+        <t id="405" name="HM" text="Heard Island and Mcdonald Islands" />
+        <t id="404" name="HT" text="Haiti" />
+        <t id="403" name="GY" text="Guyana" />
+        <t id="402" name="GW" text="Guinea-Bissau" />
+        <t id="401" name="GN" text="Guinea" />
+        <t id="400" name="GG" text="Guernsey" />
+        <t id="399" name="GT" text="Guatemala" />
+        <t id="398" name="GU" text="Guam" />
+        <t id="397" name="GP" text="Guadeloupe" />
+        <t id="396" name="GD" text="Grenada" />
+        <t id="395" name="GL" text="Greenland" />
+        <t id="394" name="GR" text="Greece" />
+        <t id="393" name="GI" text="Gibraltar" />
+        <t id="392" name="GH" text="Ghana" />
+        <t id="391" name="DE" text="Germany" />
+        <t id="390" name="GE" text="Georgia" />
+        <t id="389" name="GM" text="Gambia" />
+        <t id="388" name="GA" text="Gabon" />
+        <t id="387" name="TF" text="French Southern Territories" />
+        <t id="386" name="PF" text="French Polynesia" />
+        <t id="385" name="GF" text="French Guiana" />
+        <t id="384" name="FR" text="France" />
+        <t id="383" name="FI" text="Finland" />
+        <t id="382" name="FJ" text="Fiji" />
+        <t id="381" name="FO" text="Faroe Islands" />
+        <t id="380" name="FK" text="Falkland Islands" />
+        <t id="379" name="ET" text="Ethiopia" />
+        <t id="378" name="EE" text="Estonia" />
+        <t id="377" name="ER" text="Eritrea" />
+        <t id="376" name="GQ" text="Equatorial Guinea" />
+        <t id="375" name="SV" text="El Salvador" />
+        <t id="374" name="EG" text="Egypt" />
+        <t id="373" name="EC" text="Ecuador" />
+        <t id="372" name="DO" text="Dominican Republic" />
+        <t id="371" name="DM" text="Dominica" />
+        <t id="370" name="DJ" text="Djibouti" />
+        <t id="369" name="DK" text="Denmark" />
+        <t id="368" name="CZ" text="Czech Republic" />
+        <t id="367" name="CY" text="Cyprus" />
+        <t id="366" name="CU" text="Cuba" />
+        <t id="365" name="HR" text="Croatia" />
+        <t id="364" name="CI" text="Côte d'Ivoire" />
+        <t id="363" name="CR" text="Costa Rica" />
+        <t id="362" name="CK" text="Cook Islands" />
+        <t id="361" name="CD" text="The democratic republic of the Congo" />
+        <t id="157" name="AL" text="Albania" />
+        <t id="206" name="DZ" text="Algeria" />
+        <t id="133" name="AS" text="American Samoa" />
+        <t id="207" name="AD" text="Andora" />
+        <t id="158" name="AO" text="Angola" />
+        <t id="208" name="AI" text="Anguilla" />
+        <t id="121" name="AQ" text="Antarctica" />
+        <t id="209" name="AG" text="Antigua and barbuda" />
+        <t id="159" name="AR" text="Argentina" />
+        <t id="210" name="AM" text="Armenia" />
+        <t id="134" name="AW" text="Aruba" />
+        <t id="211" name="AU" text="Australia" />
+        <t id="160" name="AT" text="Austria" />
+        <t id="212" name="AZ" text="Azerbaijan" />
+        <t id="115" name="BS" text="Bahamas" />
+        <t id="213" name="BH" text="Bahrain" />
+        <t id="161" name="BD" text="Bangladesh" />
+        <t id="214" name="BB" text="Barbados" />
+        <t id="135" name="BY" text="Belarus" />
+        <t id="215" name="BE" text="Belgium" />
+        <t id="162" name="BZ" text="Belize" />
+        <t id="216" name="BJ" text="Benin" />
+        <t id="122" name="BM" text="Bermuda" />
+        <t id="217" name="BT" text="Bhutan" />
+        <t id="163" name="BO" text="Bolivia" />
+        <t id="218" name="BA" text="Bosnia and Herzegovina" />
+        <t id="136" name="BW" text="Botswana" />
+        <t id="219" name="BV" text="Bouvet Island" />
+        <t id="164" name="BR" text="Brazil" />
+        <t id="220" name="IO" text="British Indian Ocean Territory" />
+        <t id="112" name="BN" text="Brunei Darussalam" />
+        <t id="221" name="BG" text="Bulgaria" />
+        <t id="165" name="BF" text="Burkina Faso" />
+        <t id="222" name="BI" text="Burundi" />
+        <t id="137" name="KH" text="Cambodia" />
+        <t id="223" name="CM" text="Cameroon" />
+        <t id="166" name="CA" text="Canada" />
+        <t id="224" name="CV" text="Cape Verde" />
+        <t id="123" name="KY" text="Cayman Islands" />
+        <t id="225" name="CF" text="Central African Republic" />
+        <t id="167" name="TD" text="Chad" />
+        <t id="226" name="CL" text="Chile" />
+        <t id="138" name="CN" text="China" />
+        <t id="227" name="CX" text="Christmas Island" />
+        <t id="168" name="CC" text="Cocos (keeling) Islands" />
+        <t id="228" name="CO" text="Colombia" />
+        <t id="116" name="KM" text="Comoros" />
+        <t id="229" name="CG" text="Congo" />
+        <t id="483" name="PE" text="Peru" />
+        <t id="484" name="PH" text="Philippines" />
+        <t id="485" name="PN" text="Pitcairn" />
+        <t id="486" name="PL" text="Poland" />
+        <t id="487" name="PT" text="Portugal" />
+        <t id="488" name="PR" text="Puerto Rico" />
+        <t id="489" name="QA" text="Qatar" />
+        <t id="490" name="RE" text="Réunion" />
+        <t id="491" name="RO" text="Romania" />
+        <t id="492" name="RU" text="Russian Federation" />
+        <t id="493" name="RW" text="Rwanda" />
+        <t id="494" name="BL" text="Saint Barthélemy" />
+        <t id="495" name="SH" text="Saint Helena" />
+        <t id="496" name="KN" text="Saint Kitts and Nevis" />
+        <t id="497" name="LC" text="Saint Lucia" />
+        <t id="498" name="MF" text="Saint Martin" />
+        <t id="499" name="PM" text="Saint Pierre and Miquelon" />
+        <t id="500" name="VC" text="Saint Vincent and The Grenadines" />
+        <t id="501" name="WS" text="Samoa" />
+        <t id="502" name="SM" text="San Marino" />
+        <t id="503" name="ST" text="Sao Tome and Principe" />
+        <t id="504" name="SA" text="Saudi Arabia" />
+        <t id="505" name="SN" text="Senegal" />
+        <t id="506" name="RS" text="Serbia" />
+        <t id="507" name="SC" text="Seychelles" />
+        <t id="508" name="SL" text="Sierra Leone" />
+        <t id="509" name="SG" text="Singapore" />
+        <t id="510" name="SK" text="Slovakia" />
+        <t id="511" name="SI" text="Slovenia" />
+        <t id="512" name="SB" text="Solomon Islands" />
+        <t id="513" name="SO" text="Somalia" />
+        <t id="514" name="ZA" text="South Africa" />
+        <t id="515" name="GS" text="South Georgia and The South Sandwich Islands" />
+        <t id="516" name="ES" text="Spain" />
+        <t id="517" name="LK" text="Sri Lanka" />
+        <t id="518" name="SD" text="Sudan" />
+        <t id="519" name="SR" text="Suriname" />
+        <t id="520" name="SJ" text="Svalbard and Jan Mayen" />
+        <t id="521" name="SZ" text="Swaziland" />
+        <t id="522" name="SE" text="Sweden" />
+        <t id="523" name="CH" text="Switzerland" />
+        <t id="524" name="SY" text="Syrian Arab Republic" />
+        <t id="525" name="TW" text="Taiwan" />
+        <t id="526" name="TJ" text="Tajikistan" />
+        <t id="527" name="TZ" text="Tanzania" />
+        <t id="528" name="TH" text="Thailand" />
+        <t id="529" name="TL" text="Timor-Leste" />
+        <t id="530" name="TG" text="Togo" />
+        <t id="531" name="TK" text="Tokelau" />
+        <t id="532" name="TO" text="Tonga" />
+        <t id="533" name="TT" text="Trinidad and Tobago" />
+        <t id="534" name="TN" text="Tunisia" />
+        <t id="535" name="TR" text="Turkey" />
+        <t id="536" name="TM" text="Turkmenistan" />
+        <t id="537" name="TC" text="Turks and Caicos Islands" />
+        <t id="538" name="TV" text="Tuvalu" />
+        <t id="547" name="UG" text="Uganda" />
+        <t id="548" name="UA" text="Ukraine" />
+        <t id="549" name="AE" text="United Arab Emirates" />
+        <t id="550" name="GB" text="United Kingdom" />
+        <t id="551" name="US" text="United States" />
+        <t id="552" name="UM" text="United States Minor Outlying Islands" />
+        <t id="553" name="UY" text="Uruguay" />
+        <t id="554" name="UZ" text="Uzbekistan" />
+        <t id="555" name="VU" text="Vanuatu" />
+        <t id="556" name="VE" text="Venezuela" />
+        <t id="557" name="VN" text="Viet Nam" />
+        <t id="558" name="VG" text="British Virgin Islands" />
+        <t id="559" name="VI" text="U.S. Virgin Islands" />
+        <t id="560" name="WF" text="Wallis and Futuna" />
+        <t id="561" name="EH" text="Western Sahara" />
+        <t id="562" name="YE" text="Yemen" />
+        <t id="563" name="ZM" text="Zambia" />
+        <t id="564" name="ZW" text="Zimbabwe" />
+        <t id="628" name="Shop" text="Shop" />
+        <t id="4720" name="carousel_caption_order_history" text="購入履歴を見る" />
+        <t id="4716" name="err_shop" text="エラーが発生しました。もう一度お試しください。" />
+        <t id="4719" name="menu_shop_order_history" text="購入履歴" />
+        <t id="4717" name="menu_shop_promotion" text="プロモーション" />
+        <t id="4734" name="shop_checkout_cancel" text="ダウンロードがキャンセルされました。" />
+        <t id="4735" name="shop_checkout_error" text="ダウンロードでエラーが発生しました。" />
+        <t id="4733" name="shop_checkout_success" text="ダウンロードが完了しました！" />
+        <t id="4723" name="shop_connecting_to_Pcshop" text="サーバーに接続中・・・" />
+        <t id="4722" name="shop_connecting_to_PS3shop" text="PlayStation®Storeに接続中・・・" />
+        <t id="4721" name="shop_connecting_to_XBOXshop" text="Xbox Live マーケットプレースに\n接続中・・・" />
+        <t id="4730" name="shop_download_bt" text="ダウンロード" />
+        <t id="4725" name="shop_orderlist_price" text="価格" />
+        <t id="4724" name="shop_orderlist_product" text="商品" />
+        <t id="4732" name="shop_ps3_disclaimer_scea" text="CONDITIONS OF USE&#xA;“Purchase and use of this item is subject to the &quot;PSN&quot; Terms of Service and User Agreement.&#xA;&#xA;This item has been sublicensed to you by Sony Computer Entertainment&#xA;America.”" />
+        <t id="4731" name="shop_ps3_disclaimer_scee" text="Download is subject to the &quot;PSN&quot; Terms of Service and User Agreement and any specific additional conditions applying to this item. If you do not wish to accept these terms, do not download this item." />
+        <t id="4729" name="shop_slideshow_bt" text="スクリーンショット" />
+        <t id="4728" name="shop_trailer_bt" text="トレーラー" />
+        <t id="4727" name="shop_unavailable_content_description" text="このタイトルのコンテンツはご利用いただけません。" />
+        <t id="4726" name="shop_unavailable_content_title" text="コンテンツ利用不可" />
+        <t id="6448" name="shop_price_free" text="無料" />
+        <t id="6508" name="shop_connection_warning" text="ニンテンドーeショップに入ろうとしています。" />
+        <t id="5767" name="bounce_unavailable_content_desc" text="メッセージがありません。フレンドにメッセージを送りましょう！" />
+        <t id="5766" name="bounce_unavailable_content_title" text="メッセージなし" />
+        <t id="5744" name="Button_Bounce" text="共有" />
+        <t id="5746" name="Button_Compare" text="比較" />
+        <t id="5742" name="Button_Delete" text="削除" />
+        <t id="5743" name="Button_Reach" text="移動する" />
+        <t id="5745" name="Button_Send" text="送信" />
+        <t id="5741" name="Carousel_caption_share_leaderboards" text="現在のゲームでのランキングをチェック" />
+        <t id="5765" name="friends_unavailable_content_desc" text="フレンドが登録されていません。フレンドを登録して共有しましょう！" />
+        <t id="5764" name="friends_unavailable_content_title" text="フレンドリスト未登録" />
+        <t id="5769" name="leaderboard_unavailable_content_desc" text="このゲームにはランキングがないか、Uplayフレンドの登録がありません。" />
+        <t id="5768" name="leaderboard_unavailable_content_title" text="ランキング利用不可" />
+        <t id="5737" name="menu_share_currentgame" text="現在のゲーム" />
+        <t id="5736" name="menu_share_friends" text="フレンド" />
+        <t id="5753" name="share_bounce_from" text="From：" />
+        <t id="5762" name="share_bounce_send_fail" text="メッセージ送信に失敗しました" />
+        <t id="5761" name="share_bounce_send_success" text="メッセージを送信しました" />
+        <t id="5754" name="share_bounce_to" text="To：" />
+        <t id="5756" name="share_confirm_delete" text="このメッセージを削除しますか？" />
+        <t id="5755" name="share_delete_bounce" text="メッセージを削除" />
+        <t id="5763" name="share_last_played_game" text="最後にプレイしたUplay対応ゲーム:" />
+        <t id="5759" name="share_send_bounce_enter_message" text="メッセージを入力" />
+        <t id="5760" name="share_send_bounce_message_placeholder" text="ここにメッセージを追加" />
+        <t id="5758" name="share_user_offline" text="オフライン" />
+        <t id="5757" name="share_user_online" text="オンライン" />
+        <t id="5738" name="SubMenu_BouncesReceived" text="メッセージ" />
+        <t id="5739" name="SubMenu_FriendsList" text="フレンドリスト" />
+        <t id="5749" name="time_x_days_ago" text="{x}日前" />
+        <t id="5752" name="time_x_day_ago" text="昨日" />
+        <t id="5751" name="time_x_hour_ago" text="1時間前" />
+        <t id="5748" name="time_x_hours_ago" text="{x}時間前" />
+        <t id="5750" name="time_x_minute_ago" text="1分前" />
+        <t id="5747" name="time_x_minutes_ago" text="{x}分前" />
+        <t id="7310" name="time_x_year_ago" text="1年前" />
+        <t id="7309" name="time_x_months_ago" text="{x}ヶ月前" />
+        <t id="7308" name="time_x_month_ago" text="1ヶ月前" />
+        <t id="7307" name="time_x_weeks_ago" text="{x}週間前" />
+        <t id="7306" name="time_x_week_ago" text="1週間前" />
+        <t id="5770" name="updated_on" text="更新：" />
+        <t id="5772" name="share_bounce_message_exceeded" text="メッセージが長すぎます。メッセージは140文字以内にしてください。" />
+        <t id="5775" name="menu_share_leaderboards" text="ランキング" />
+        <t id="5831" name="Button_Compare_Actions" text="アクションを比較" />
+        <t id="5830" name="label_common_game" text="ゲーム" />
+        <t id="5825" name="share_bounce_spam" text="メッセージの送信回数が所定時間内の最大数に達しました。メッセージが送信できるようになるまで、しばらくお待ちください。" />
+        <t id="5832" name="share_friend_compare" text="アクションを比較" />
+        <t id="5833" name="share_friend_profile" text="フレンドプロフィール" />
+        <t id="5828" name="share_last_action_completed" text="最新のアクション：" />
+        <t id="5829" name="share_last_action_none" text="なし" />
+        <t id="5827" name="share_last_seen_on" text="前回の表示：" />
+        <t id="5826" name="share_not_linked_to_uplay" text="Uplayとのリンクなし" />
+        <t id="5838" name="Button_Manage_Friends" text="フレンドの管理" />
+        <t id="5839" name="share_friend_no_longer_connected" text="もうこのフレンドとはつながっていません。" />
+        <t id="5840" name="share_friend_page_priviledge_error1" text="このコンテンツへのアクセスは許可されていません。" />
+        <t id="5841" name="share_friend_page_priviledge_error2" text="このコンテンツにアクセスするにはオンラインセーフティ設定を変更してください" />
+        <t id="5842" name="share_friend_page_priviledge_error3" text="このコンテンツへのアクセスは許可されていません。&#xA;このコンテンツにアクセスするにはオンラインセーフティ設定を変更してください" />
+        <t id="5865" name="date_format" text="%d/%m/%y" />
+        <t id="5898" name="Carousel_caption_share_messages" text="メッセージを確認" />
+        <t id="5899" name="Button_See_Gamercard" text="ゲーマー カード" />
+        <t id="627" name="Share" text="Share" />
+        <t id="6153" name="Carousel_caption_news_gamefeed" text="フレンドの状態を確認" />
+        <t id="6152" name="Carousel_caption_news_community" text="コミュニティーのアップデートを入手" />
+        <t id="6151" name="Carousel_caption_news_ubisoft" text="最新ニュース" />
+        <t id="5740" name="Carousel_caption_share_friends" text="フレンドとの比較" />
+        <t id="6150" name="menu_news_gamefeed" text="ゲームフィード" />
+        <t id="6149" name="menu_news_community" text="コミュニティーニュース" />
+        <t id="6148" name="menu_news_ubisoft" text="Ubisoftニュース" />
+        <t id="6147" name="share_label_share_my_feed" text="マイフィード" />
+        <t id="6146" name="share_friend_username_feed" text="フレンドフィード" />
+        <t id="6145" name="share_stats_most_viewed_help_content" text="Uplayのよくある質問" />
+        <t id="6144" name="share_stats_most_played_game" text="フレンドが最もプレイしているゲーム" />
+        <t id="6143" name="share_stats_most_completed_action" text="フレンドが最も使用しているアクション" />
+        <t id="6142" name="share_stats_most_bought_reward" text="フレンドが最も獲得しているリワード" />
+        <t id="6141" name="Button_My_Games" text="マイゲーム" />
+        <t id="6155" name="Button_Show_Dashboard" text="ニュースフラッシュ" />
+        <t id="6154" name="Button_View_Item" text="アイテムを見る" />
+        <t id="6140" name="share_content_not_available" text="フレンドの招待" />
+        <t id="6139" name="share_stats_latest_redeemed_reward" text="最新のリワード：" />
+        <t id="6138" name="share_dashboard_help_content" text="ヘルプを見る" />
+        <t id="6137" name="share_dashboard_reward" text="リワードを獲得" />
+        <t id="6136" name="share_dashboard_game_promotion" text="ショッププロモーションを見る" />
+        <t id="6135" name="share_dashboard_nb_new_messages" text="nb ニューメッセージ" />
+        <t id="6157" name="label_share_profile_page_unavailable_content_title" text="コンテンツ" />
+        <t id="6156" name="share_gamefeed_not_available" text="コンテンツは現在利用できません。" />
+        <t id="6175" name="label_share_profile_page_unavailable_content_desc" text="コンテンツは現在利用できません。" />
+        <t id="6160" name="Button_View_Friend_Profile" text="フレンドプロフィールを見る" />
+        <t id="6161" name="label_share_friend_firstparty_invitation" text="Uplayへ招待" />
+        <t id="6162" name="label_share_friend_firstparty_subject" text="Uplayに登録" />
+        <t id="6163" name="label_share_friend_firstparty_body" text="%RECIPIENT%へ&#xA;Uplayコミュニティーへ参加しよう！&#xA;%SENDER%" />
+        <t id="6176" name="Button_Friends_Playing_This_Game" text="このゲームをプレイしているフレンド" />
+        <t id="6177" name="Button_Continue_To_Uplay" text="ニュースフラッシュを閉じる" />
+        <t id="6180" name="label_none" text="なし" />
+        <t id="6232" name="share_dashboard_reward_all_redeemed" text="コンテンツ利用不可" />
+        <t id="6237" name="share_bounce_gift_category" text="サプライズ" />
+        <t id="6498" name="Hello" text="ヘルプ" />
+        <t id="6497" name="More_friends" text="  &#xA;Wii Uのフレンドを作って、Uplayのことを教えてあげよう" />
+        <t id="6331" name="IGA_NewsToS" text="新利用規約を承諾して下さい。" />
+        <t id="6332" name="Button_Accept" text="承諾" />
+        <t id="6471" name="Button_Agree" text="承諾" />
+        <t id="6333" name="Button_AskMeLater" text="また後で" />
+        <t id="6334" name="Msg_AskMeLater" text="ありがとうございます。後ほどUplay対応のゲームに接続した際にまたメッセージが表示されます。今戻って承諾することも出来ます。" />
+        <t id="6335" name="Msg_AskMeLater2" text="ありがとうございます。後ほど接続した際にまたメッセージが表示されます。今戻って承諾することも出来ます。" />
+        <t id="6336" name="Msg_AcceptConfirm" text="ありがとうございます。" />
+        <t id="6337" name="Msg_RequiredFields" text="アカウントの必須フィールドが抜けています。新利用規約を承諾するには、Uplay.comにログインしてアカウントを更新してください。" />
+        <t id="6338" name="Msg_MissingInfo" text="以下の必須フィールドを更新して続行してください。" />
+        <t id="6367" name="Button_continue" text="続ける" />
+        <t id="6339" name="Button_ok" text="ＯＫ" />
+        <t id="6340" name="Button_Back" text="戻る" />
+        <t id="6341" name="IGA_NewsToS_Casual" text="最近利用規約を更新しました。規約を承諾するのは今でも後でも構いません。すぐに終わります。" />
+        <t id="6342" name="Button_AskMeLater_Casual" text="後で確認する" />
+        <t id="6343" name="Msg_AskMeLater_Casual" text="わかりました、問題ございません。後でお願いいたします。戻るボタンを押して承諾することも出来ます。" />
+        <t id="6344" name="Msg_AskMeLater2_Casual" text="わかりました、問題ございません。後でお願いいたします。または、今すぐ戻って承諾することも出来ます。すぐに終わります。" />
+        <t id="6345" name="Msg_AcceptConfirm_Casual" text="ありがとう！" />
+        <t id="6346" name="Msg_RequiredFields_Casual" text="おっと！いくつか重要な情報が抜けてます。新利用規約を承諾するにはUplay.comにログインしてアカウントを更新してください。" />
+        <t id="6347" name="Msg_MissingInfo_Casual" text="もうすぐ完了です！以下の必須フィールドを更新して続行してください。" />
+        <t id="5836" name="Menu_Expo" text="E3 Expo 2012" />
+        <t id="5837" name="Carousel_ExpoE3" text="E3レポートをチェック" />
+        <t id="5936" name="content_unavailable_age_restriction" text="年齢制限のためコンテンツを利用できません。" />
+        <t id="6178" name="label_completed_actions" text="成功したアクション：" />
+        <t id="6179" name="label_redeemed_rewards" text="獲得したリワード：" />
+        <t id="6505" name="videos_tab" text="トレーラー" />
+    </translations>
+</oasis>
