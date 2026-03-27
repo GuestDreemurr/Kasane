@@ -1,2 +1,8 @@
 <ArrayOfUserGlobalStatAggregatedClient>
+    <UserGlobalStatAggregatedClient>
+        <Type>MostPlayedGame</Type>
+        <Id>AC3</Id>
+        <Title>Assassin's Creed 3</Title>
+        <Label>Action</Label>
+    </UserGlobalStatAggregatedClient>
 </ArrayOfUserGlobalStatAggregatedClient>

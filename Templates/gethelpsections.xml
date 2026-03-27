@@ -1,3 +1,3 @@
 <ArrayOfSectionClient xmlns="http://schemas.datacontract.org/2004/07/Ubisoft.Uplay.UplayHelp.Services.Contracts.Client" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
-	<SectionClient></SectionClient>
+	<!--<SectionClient></SectionClient>-->
 </ArrayOfSectionClient>
