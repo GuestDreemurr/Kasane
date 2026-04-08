@@ -19,6 +19,10 @@ public class OnlineConfigService : ControllerBase
       case "dc580a8b83764dd6ac2d05d4321bc113":
         string zombidata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "ZombiU.json"));
         return Content(zombidata, "application/json");
+      // ESPN Sports Connection
+      case "79ae3eef42384c70a25f610eef794560":
+        string espndata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "ESPNSportsConnection.json"));
+        return Content(espndata, "application/json");
     }
 
     return new[]

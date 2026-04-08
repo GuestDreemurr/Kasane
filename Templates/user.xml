@@ -27,12 +27,7 @@
                 <Value>EST</Value>
             </UserProfileData>
         </Profile>
-        <ExternalAccounts>
-            <ExternalAccount>
-                <ExternalAccountType>other</ExternalAccountType>
-                <id>UplayTesting</id>
-            </ExternalAccount>
-        </ExternalAccounts>
+        <ExternalAccounts></ExternalAccounts>
     </User>
     <UplayGames>
         <UplayGame>
@@ -45,7 +40,7 @@
                 <AgeRatingDescriptor>
                     <Name>Blood</Name>
                     <ImageUrl>todo.png</ImageUrl>
-                    <!-- useless? not sure..-->
+                    <!-- useless, does not get requested. !-->
                 </AgeRatingDescriptor>
                 <AgeRatingDescriptor>
                     <Name>Intense Violence</Name>
