@@ -13,7 +13,7 @@ public class BootstrapService : ProfileService
         // dunno how to handle, return 403
         if (user_id != "UplayUserId")
         {
-            return Forbid();
+            return StatusCode(403);
         }
         string path = Path.Combine(Settings.TemplatesPath, "user.xml");
         XDocument xmlDoc = Utils.LoadXmlFromFile(path);
