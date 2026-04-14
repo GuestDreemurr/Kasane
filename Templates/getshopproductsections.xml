@@ -84,7 +84,7 @@
 			</SectionContentClient>
 		</ContentList>
 		<DotId>251.269</DotId>
-		<GameCode>ACR</GameCode>
+		<GameCode>AC3</GameCode>
 		<Id>269</Id>
 		<IsWinEnabled>true</IsWinEnabled>
 		<MenuTypeId>5</MenuTypeId>
@@ -92,7 +92,7 @@
 		<Name>Ancestor</Name>
 		<Order>0</Order>
 		<ParentId>251</ParentId>
-		<PlatformCode>XBox360</PlatformCode>
+		<PlatformCode>WIIU</PlatformCode>
 		<ProductId>555308790ce56000</ProductId>
 		<ProductIdDummy>555308790f671400</ProductIdDummy>
 		<RegionName>North America</RegionName>

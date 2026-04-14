@@ -1,0 +1,16 @@
+<ArrayOfNewReleaseClient>
+  <NewReleaseClient>
+    <Game>AC3</Game>
+    <Type>GAME</Type>
+    <Id>123</Id>
+    <Label>Now available!</Label>
+    <Title>Assassin's Creed III</Title>
+    <Text>Description here</Text>
+    <Date>2013-01-15T00:00:00</Date>
+    <ImageUrl>Games/AC3/gameImg/gamePreview.jpg</ImageUrl>
+    <!--<AdditionalInfo>PC:456,WIIU:789</AdditionalInfo>--> <!-- this is for rewards, uncomment to make a item become a reward.-->
+    <!-- HELP category only: -->
+    <!--<DotId>some.dot.id.here</DotId>
+    <MenuType>Walkthrough</MenuType> -->
+  </NewReleaseClient>
+</ArrayOfNewReleaseClient>

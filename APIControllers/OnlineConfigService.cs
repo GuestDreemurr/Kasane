@@ -5,9 +5,10 @@ using Microsoft.AspNetCore.Mvc;
 public class OnlineConfigService : ControllerBase
 {
   [HttpGet("GetOnlineConfigWiiU")]
-  public ActionResult<dynamic> GetOnlineConfigWiiU(string onlineConfigID)
+  public ActionResult<dynamic> GetOnlineConfigWiiU(string onlineConfigID, string wiiuTicket)
   {
     Console.WriteLine($"[OnlineConfigService] Client Id: {onlineConfigID}");
+    Console.WriteLine($"[OnlineConfigService] Wii U Service Token: {wiiuTicket}");
 
     switch (onlineConfigID)
     {
