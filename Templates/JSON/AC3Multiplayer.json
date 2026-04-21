@@ -1,0 +1,182 @@
+[
+  {
+    "Name": "GenomeId",
+    "Values": [
+      "4f281857-60b7-4583-aac5-e70d848d8fb0"
+    ]
+  },
+  {
+    "Name": "killSwitch_contentFiltering",
+    "Values": [
+      "0"
+    ]
+  },
+  {
+    "Name": "killSwitch_friendsProposal",
+    "Values": [
+      "0"
+    ]
+  },
+  {
+    "Name": "killSwitch_friendsRequest",
+    "Values": [
+      "0"
+    ]
+  },
+  {
+    "Name": "killSwitch_friendsSuggestions",
+    "Values": [
+      "0"
+    ]
+  },
+  {
+    "Name": "killSwitch_socialFeed",
+    "Values": [
+      "0"
+    ]
+  },
+  {
+    "Name": "killSwitch_socialFeedWrites",
+    "Values": [
+      "0"
+    ]
+  },
+  {
+    "Name": "killSwitch_uplay",
+    "Values": [
+      "0"
+    ]
+  },
+  {
+    "Name": "SandboxUrlPrivWiiU",
+    "Values": [
+      "prudp:/address=lb-ne1-z02-rdv-ac.ubisoft.com;port=21041"
+    ]
+  },
+  {
+    "Name": "SandboxUrlWIIU",
+    "Values": [
+      "prudp:/address=lb-ne1-z02-rdv-ac.ubisoft.com;port=21036"
+    ]
+  },
+  {
+    "Name": "SandboxUrlWS",
+    "Values": [
+      "ne1-z2-ac-rdv04.ubisoft.com:21035"
+    ]
+  },
+  {
+    "Name": "UplayGameCode",
+    "Values": [
+      "AC3"
+    ]
+  },
+  {
+    "Name": "US_AcceptSuggestion_WiiU",
+    "Values": [
+      "https://friendsservice.ubi.com/friendsservice.svc/REST/AcceptSuggestion "
+    ]
+  },
+  {
+    "Name": "US_CommentPost_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/ShareServices/GameClientServices.svc/REST/JSON/InsertWallPostComment/"
+    ]
+  },
+  {
+    "Name": "US_DeclineSuggestion_WiiU",
+    "Values": [
+      "https://friendsservice.ubi.com/friendsservice.svc/REST/DeclineSuggestion "
+    ]
+  },
+  {
+    "Name": "US_GetWallPostsByIds_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/ShareServices/GameClientServices.svc/REST/JSON/GetWallPostsByIds/"
+    ]
+  },
+  {
+    "Name": "US_GetWalls_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/ShareServices/GameClientServices.svc/REST/JSON/GetWalls/"
+    ]
+  },
+  {
+    "Name": "US_GetWallsPost_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/ShareServices/GameClientServices.svc/REST/JSON/GetWallPosts/"
+    ]
+  },
+  {
+    "Name": "US_InitializeUser_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/WinServices/GameClientServices.svc/REST/JSON/InitializeUser/"
+    ]
+  },
+  {
+    "Name": "US_InsertPost_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/ShareServices/GameClientServices.svc/REST/JSON/InsertWallPost/"
+    ]
+  },
+  {
+    "Name": "US_LikePost_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/ShareServices/GameClientServices.svc/REST/JSON/InsertWallPostLike/"
+    ]
+  },
+  {
+    "Name": "US_Login_WiiU",
+    "Values": [
+      "https://signupservice.ubi.com/PublicOnlineUserService.svc/REST/LogIn "
+    ]
+  },
+  {
+    "Name": "US_Logout_WiiU",
+    "Values": [
+      "https://signupservice.ubi.com/PublicSignupService.svc/REST/LogOut "
+    ]
+  },
+  {
+    "Name": "US_LookupExternalId_WiiU",
+    "Values": [
+      "https://signupservice.ubi.com/PublicSignupService.svc/REST/LookupExternalAccountIDsByUbiAccountIDs "
+    ]
+  },
+  {
+    "Name": "US_LookupUplayId_WiiU",
+    "Values": [
+      "https://signupservice.ubi.com/PublicSignupService.svc/REST/LookupUbiAccountIDsByExternalAccountIDs "
+    ]
+  },
+  {
+    "Name": "US_LookupUplayUsername_WiiU",
+    "Values": [
+      "https://signupservice.ubi.com/PublicSignupService.svc/REST/LookupUsernamesByUbiAccountIDs "
+    ]
+  },
+  {
+    "Name": "US_RequestFriends_WiiU",
+    "Values": [
+      "https://friendsservice.ubi.com/friendsservice.svc/REST/GetRelationshipsWithPresenceByToken "
+    ]
+  },
+  {
+    "Name": "US_RequestSuggestions_WiiU",
+    "Values": [
+      "https://friendsservice.ubi.com/friendsservice.svc/REST/GetSuggestionsByPage "
+    ]
+  },
+  {
+    "Name": "US_SharePost_WiiU",
+    "Values": [
+      "https://wspuplay-ext.ubi.com/UplayServices/ShareServices/GameClientServices.svc/REST/JSON/ShareWallPost/"
+    ]
+  },
+  {
+    "Name": "US_SyncFriends_WiiU",
+    "Values": [
+      "https://friendsservice.ubi.com/friendsservice.svc/REST/ProposeContacts "
+    ]
+  }
+]

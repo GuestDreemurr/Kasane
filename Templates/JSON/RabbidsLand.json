@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "SandboxUrlWIIU",
+    "Values": [
+      "prudp:/address=lb-rdv-prod18.ubisoft.com;port=21550"
+    ]
+  },
+  {
+    "Name": "SandboxUrlWS",
+    "Values": [
+      "mdc-mm-rdv21.ubisoft.com:21550"
+    ]
+  }
+]
