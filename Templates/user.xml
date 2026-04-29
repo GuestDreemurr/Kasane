@@ -101,8 +101,34 @@
             <Code>AC3</Code>
         </Game>
     </Games>
-    <Actions></Actions>
-    <Rewards></Rewards>
+    <Actions>
+        <Action>
+            <Id>TestAction</Id>
+            <Name>Test Action</Name>
+            <Description>This is a test action.</Description>
+            <GameCode>AC3</GameCode>
+            <ImagesLocalized>
+                <Image>
+                    <Code>background</Code>
+                    <Url>Games/AC3/actions/action1.jpg</Url>
+                </Image>
+            </ImagesLocalized>
+        </Action>
+    </Actions>
+    <Rewards>
+        <Reward>
+            <Id>TestReward</Id>
+            <Name>Test Reward</Name>
+            <Description>This is a test reward.</Description>
+            <GameCode>AC3</GameCode>
+            <ImagesLocalized>
+                <Image>
+                    <Code>background</Code>
+                    <Url>Games/AC3/rewards/reward1.jpg</Url>
+                </Image>
+            </ImagesLocalized>
+        </Reward>
+    </Rewards>
     <History></History>
     <AccountBalance>500</AccountBalance>
 </UserGlobal>

@@ -12,27 +12,27 @@ public class OnlineConfigService : ControllerBase
 
     switch (onlineConfigID)
     {
-      // Uplay
+      // Uplay (Wii U, this could be the same for all platforms, need to check what PS3 requests -guestd)
       case "602922fcd2eb4b18a7fa4252ffc7b75f":
         string data = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "Uplay.json"));
         return data;
-      // ZombiU
+      // ZombiU (Wii U)
       case "dc580a8b83764dd6ac2d05d4321bc113":
         string zombidata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "ZombiU.json"));
         return Content(zombidata, "application/json");
-      // Assassin's Creed III
+      // Assassin's Creed III  (Wii U)
       case "b7b3206e47a64ff5ad49f73918e36505":
         string ac3data = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "AC3.json"));
         return Content(ac3data, "application/json");
-      // Assassin's Creed III Multiplayer, for some reason ubisoft split this, so AC3.json should just be uplay integration?
+      // Assassin's Creed III Multiplayer (Wii U), for some reason ubisoft split this, so AC3.json should just be uplay integration?
       case "1e6aa0140a8c4310bdfcaaf46e3a4fd8":
         string ac3multiplayerdata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "AC3Multiplayer.json"));
         return Content(ac3multiplayerdata, "application/json");
-      // ESPN Sports Connection
+      // ESPN Sports Connection (Wii U)
       case "79ae3eef42384c70a25f610eef794560":
         string espndata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "ESPNSportsConnection.json"));
         return Content(espndata, "application/json");
-        // Rabbids Land
+        // Rabbids Land (Wii U)
       case "b9a657998c2345b68823fab56bf1e682":
         string rabbidslanddata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "RabbidsLand.json"));
         return Content(rabbidslanddata, "application/json");
