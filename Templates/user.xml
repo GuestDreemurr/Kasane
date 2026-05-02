@@ -1,6 +1,6 @@
 <UserGlobal xmlns="http://schemas.datacontract.org/2004/07/Ubisoft.OBD.ProfileServicesFacade.DataContracts" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
     <User>
-        <Id>1</Id>
+        <Id>1</Id> <!-- actually a UUID but we don't have a DB because no way to authenticate users properly yet..-->
         <UserName>UplayTesting</UserName>
         <Email>example@example.com</Email>
         <FirstName>John</FirstName>
@@ -30,6 +30,7 @@
     </User>
     <UplayGames>
         <UplayGame>
+        <!-- the app uses this as some weird "super" title? idk how to describe it but a fuckton of shit breaks if you do not have this in UplayGames, gets ignored when games should be displayed though so idk-->
             <Code>UPLAY</Code>
             <Name>Uplay</Name>
             <AgeRatingSystem>ESRB</AgeRatingSystem>
@@ -48,19 +49,19 @@
             <AgeRatingDescriptors>
                 <AgeRatingDescriptor>
                     <Name>Blood</Name>
-                    <ImageUrl>todo.png</ImageUrl>
+                    <ImageUrl>unused.png</ImageUrl>
                 </AgeRatingDescriptor>
                 <AgeRatingDescriptor>
                     <Name>Intense Violence</Name>
-                    <ImageUrl>todo.png</ImageUrl>
+                    <ImageUrl>unused.png</ImageUrl>
                 </AgeRatingDescriptor>
                 <AgeRatingDescriptor>
                     <Name>Sexual Themes</Name>
-                    <ImageUrl>todo.png</ImageUrl>
+                    <ImageUrl>unused.png</ImageUrl>
                 </AgeRatingDescriptor>
                 <AgeRatingDescriptor>
                     <Name>Strong Language</Name>
-                    <ImageUrl>todo.png</ImageUrl>
+                    <ImageUrl>unused.png</ImageUrl>
                 </AgeRatingDescriptor>
             </AgeRatingDescriptors>
             <ImagesLocalized>
@@ -103,10 +104,11 @@
     </Games>
     <Actions>
         <Action>
-            <Id>TestAction</Id>
+            <Code>TestAction</Code>
             <Name>Test Action</Name>
             <Description>This is a test action.</Description>
             <GameCode>AC3</GameCode>
+            <Value>20</Value>
             <ImagesLocalized>
                 <Image>
                     <Code>background</Code>
@@ -117,10 +119,11 @@
     </Actions>
     <Rewards>
         <Reward>
-            <Id>TestReward</Id>
+            <Code>TestReward</Code>
             <Name>Test Reward</Name>
             <Description>This is a test reward.</Description>
             <GameCode>AC3</GameCode>
+            <Value>20</Value>
             <ImagesLocalized>
                 <Image>
                     <Code>background</Code>

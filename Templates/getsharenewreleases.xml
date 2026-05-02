@@ -3,12 +3,30 @@
     <Game>AC3</Game>
     <Type>GAME</Type>
     <Id>123</Id>
-    <Label>Now available!</Label>
     <Title>Assassin's Creed III</Title>
-    <Text>Description here</Text>
-    <Date>2013-01-15T00:00:00</Date>
-    <ImageUrl>Games/AC3/gameImg/gamePreview.jpg</ImageUrl>
+    <Label>Now available!</Label> <!-- appears below the game title.-->
+    <Text>Description here</Text> <!-- appears in the detailed view of the news item.-->
+    <Date>2013-01-15T00:00:00</Date> <!-- i have 0 clue if this is actually ever displayed anywhere-->
+    <ImageUrl>Games/AC3/gameImg/gamePreview.jpg</ImageUrl> <!-- do NOT put a full url, the base url in the app is "http://static8.cdn.ubi.com/u/Uplay". -->
     <!--<AdditionalInfo>PC:456,WIIU:789</AdditionalInfo>--> <!-- this is for rewards, uncomment to make a item become a reward.-->
+
+    
+    <!-- HELP category only: -->
+    <!--<DotId>some.dot.id.here</DotId>
+    <MenuType>Walkthrough</MenuType> -->
+  </NewReleaseClient>
+  <NewReleaseClient>
+    <Game>ZU</Game>
+    <Type>GAME</Type>
+    <Id>456</Id>
+    <Title>ZombiU</Title>
+    <Label>Now available!</Label> <!-- appears below the game title.-->
+    <Text>Description here</Text> <!-- appears in the detailed view of the news item.-->
+    <Date>2013-10-29T00:00:00</Date> <!-- i have 0 clue if this is actually ever displayed anywhere-->
+    <ImageUrl>Games/ZU/gameImg/gamePreview.jpg</ImageUrl> <!-- do NOT put a full url, the base url in the app is "http://static8.cdn.ubi.com/u/Uplay". -->
+    <!--<AdditionalInfo>PC:456,WIIU:789</AdditionalInfo>--> <!-- this is for rewards, uncomment to make a item become a reward.-->
+
+
     <!-- HELP category only: -->
     <!--<DotId>some.dot.id.here</DotId>
     <MenuType>Walkthrough</MenuType> -->

@@ -12,7 +12,7 @@ public class OnlineConfigService : ControllerBase
 
     switch (onlineConfigID)
     {
-      // Uplay (Wii U, this could be the same for all platforms, need to check what PS3 requests -guestd)
+      // Uplay (Wii U, this could be the same for all platforms, need to check what PS3 requests. -guestd)
       case "602922fcd2eb4b18a7fa4252ffc7b75f":
         string data = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "Uplay.json"));
         return data;
@@ -24,7 +24,7 @@ public class OnlineConfigService : ControllerBase
       case "b7b3206e47a64ff5ad49f73918e36505":
         string ac3data = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "AC3.json"));
         return Content(ac3data, "application/json");
-      // Assassin's Creed III Multiplayer (Wii U), for some reason ubisoft split this, so AC3.json should just be uplay integration?
+      // Assassin's Creed III Multiplayer (Wii U), ubisoft split this, so AC3.json should just be uplay integration?
       case "1e6aa0140a8c4310bdfcaaf46e3a4fd8":
         string ac3multiplayerdata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "AC3Multiplayer.json"));
         return Content(ac3multiplayerdata, "application/json");
@@ -36,6 +36,10 @@ public class OnlineConfigService : ControllerBase
       case "b9a657998c2345b68823fab56bf1e682":
         string rabbidslanddata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "RabbidsLand.json"));
         return Content(rabbidslanddata, "application/json");
+      // Marvel's Avengers: Battle for Earth (Wii U)
+      case "2a3d1b26f4a440b38b15a91294925940":
+        string marvelavengersbfedata = Utils.ReadJsonFromFile(Path.Combine(Settings.JsonTemplatePath, "MarvelAvengersBFE.json"));
+        return Content(marvelavengersbfedata, "application/json");
     }
 
     return NotFound(); // unknown config, throwing 404 should make the client throw a error in most cases? dunno how ubisoft handles this lmao.

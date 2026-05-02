@@ -2,7 +2,21 @@
     <UserGlobalStatAggregatedClient>
         <Type>MostPlayedGame</Type>
         <Id>AC3</Id>
-        <Title>Z</Title>
+        <Title>Assassin's Creed III</Title>
         <Label>Most Played Game On Uplay!</Label>
+    </UserGlobalStatAggregatedClient>
+    <UserGlobalStatAggregatedClient>
+        <Type>LastPurchasedReward</Type>
+        <Id>RewardCodeHere</Id>
+        <Title>Reward Test</Title>
+        <Label>Most Purchased Reward</Label>
+        <Url>rewardurlgoeshereblahblahhopethisdoesntbreakparser</Url>
+    </UserGlobalStatAggregatedClient>
+    <UserGlobalStatAggregatedClient>
+        <Type>MostPurchasedReward</Type>
+        <Id>RewardCodeHere</Id>
+        <Title>Reward Test</Title>
+        <Label>Most Purchased Reward</Label>
+        <Url>rewardurlgoeshereblahblahhopethisdoesntbreakparser</Url>
     </UserGlobalStatAggregatedClient>
 </ArrayOfUserGlobalStatAggregatedClient>

@@ -32,7 +32,7 @@ public partial class FriendsService
         public int UserId { get; set; } // probably a uuid based off other server impls, but we arent working with a db, YET.
         public required string ExternalAccountId { get; set; } // for wii u this is PNID/NNID. for x360/ps3 its gamertag/psn.
         public required string LastPlayedGameCode { get; set; }
-        public DateTime LastSeenDate { get; set; } // iso-8601
+        public DateTime LastSeenDate { get; set; }
         public int UnitsSpent { get; set; }
         public int UnitsWon { get; set; }
         public required string LastActionCompletedCode { get; set; }
